@@ -26,7 +26,7 @@ class Main extends Sprite
 		text1.y = 10;
 		
 		
-		var ticket1 = new GoldenTicket([true, false, false, false]);
+		var ticket1 = new GoldenTicket([false, false, true, false]);
 		addChild(ticket1);
 		ticket1.y = text1.y + text1.textHeight + 5;
 		
@@ -35,7 +35,7 @@ class Main extends Sprite
 		ticket2.x = 200;
 		ticket2.y = ticket1.y;
 		
-		var ticket3 = new GoldenTicket([false, false, true, false]);
+		var ticket3 = new GoldenTicket([false, false, false, true]);
 		addChild(ticket3);
 		ticket3.x = 400;
 		ticket3.y = ticket1.y;
@@ -48,7 +48,7 @@ class Main extends Sprite
 		text2.x = 10;
 		text2.y = ticket1.y + ticket1.height + 10;
 		
-		var ticket4 = new GoldenTicketSpriteMask([true, false, false, false]);
+		var ticket4 = new GoldenTicketSpriteMask([false, false, true, false]);
 		addChild(ticket4);
 		ticket4.y = 200;
 		ticket4.y = text2.y + text2.textHeight + 5;
@@ -58,7 +58,7 @@ class Main extends Sprite
 		ticket5.x = 200;
 		ticket5.y = ticket4.y;
 		
-		var ticket6 = new GoldenTicketSpriteMask([false, false, true, false]);
+		var ticket6 = new GoldenTicketSpriteMask([false, false, false, true]);
 		addChild(ticket6);
 		ticket6.x = 400;
 		ticket6.y = ticket4.y;
